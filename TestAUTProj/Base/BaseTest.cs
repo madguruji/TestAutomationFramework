@@ -44,7 +44,6 @@ namespace TestAUTProj.Base
             CheckPoint.clearHashMap();
             nav = new NavigationPage(driver);
             loginPage = nav.login();
-
             Console.WriteLine("************************* ENDING SETUP *************************");
             string filePath = Utils.getProjectFolderPath("TestData")+ "TestData.xlsx";
             ExcelUtil.setExcelFile(filePath, "TestData");
