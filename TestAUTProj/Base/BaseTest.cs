@@ -19,8 +19,8 @@ namespace TestAUTProj.Base
         protected ResultPage resultPage;
         protected CategoryFilterPage categoryFilterPage;
 
-        private ILog log = LogManager.GetLogger(TestContext.CurrentContext.Test.Name);
-
+        private ILog log = LogManager.GetLogger(typeof(BaseTest));
+        
 
         [SetUp]
         public void start()
